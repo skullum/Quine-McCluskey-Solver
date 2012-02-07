@@ -1,0 +1,26 @@
+Documentation
+-------------
+
+Quine-McCluskey Solver (Q-M from now on) aides in the minimization of Boolean Algebra Expressions by making a list of possible combinations.
+
+This implementation is in the earliest alpha stage, please be nice.
+
+What this program does:
+  Asks for input, takes the list of minimal terms and returns
+	all possible combinations that could be used for reduction.
+
+Some limitations include:
+	1. Works for <= 5 variables
+	2. Does not allow for "don't care" terms
+
+Features I hope to add (in no particular order):
+	1. Ability to have any number of input variables 
+	2. "Don't Care" terms
+	3. GUI
+	4. A covering table (determines which combinations of terms should be used)
+	5. Multiple passes (as the number of variables increase sometimes Boolean Algbra Expressions can be reduced multiple times; I would like to account for that)
+
+For more on Boolean Algebra and Q-M: see 
+www.ece.umd.edu/class/enee644.S2004/lectures/UCP.pdf or wikipedia :)
+
+Thanks
